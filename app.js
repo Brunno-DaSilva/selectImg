@@ -1,5 +1,3 @@
-console.log("works");
-
 const one = document.getElementById("one");
 const two = document.getElementById("two");
 const imgContainerOne = document.getElementById("img__container-one");
