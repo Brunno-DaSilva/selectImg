@@ -55,7 +55,7 @@ h2 span {
   background-image: var(--containerOne-bg);
 }
 
-.img-container,
+.img-container-one,
 .img-container-two {
   width: 80%;
   display: flex;
@@ -64,12 +64,18 @@ h2 span {
   flex-wrap: wrap;
 }
 
-.img-container img {
+.img-container-one img {
   box-shadow: --box-shadow;
   transition: var(--transition);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.img-container-two img {
+  border-radius: 20px !important;
 }
 
 .placeholder-img {
+  border-radius: 2px !important;
   filter: opacity(30%);
 }
 
