@@ -79,6 +79,6 @@ h2 span {
   filter: opacity(30%);
 }
 
-.img-container img:hover {
+.img-container-one img:hover {
   box-shadow: var(--box-shadow-hover);
 }
