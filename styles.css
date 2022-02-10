@@ -43,7 +43,7 @@ h2 span {
   box-shadow: var(--box-shadow);
   border-radius: 0.25rem;
   width: 100%;
-  min-height: 500px;
+  min-height: 450px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -52,7 +52,6 @@ h2 span {
   background-image: var(--containerTwo-bg);
 }
 .container-one {
-  margin-bottom: 2rem;
   background-image: var(--containerOne-bg);
 }
 
