@@ -69,6 +69,10 @@ h2 span {
   transition: var(--transition);
 }
 
+.placeholder-img {
+  filter: opacity(30%);
+}
+
 .img-container img:hover {
   box-shadow: var(--box-shadow-hover);
 }
